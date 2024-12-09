@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [LT_Selenium]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="firefox on macOS Ventura(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="platform" value="macOS Ventura"/>
+    <classes>
+      <class name="seleniumPKG.Scenarios_LT">
+        <methods>
+          <include name="testInputFormSubmit"/>
+          <include name="tearDown"/>
+          <include name="testDragAndDropSlider"/>
+          <include name="setUp"/>
+          <include name="testSimpleFormDemo"/>
+        </methods>
+      </class> <!-- seleniumPKG.Scenarios_LT -->
+    </classes>
+  </test> <!-- firefox on macOS Ventura(failed) -->
+</suite> <!-- Failed suite [LT_Selenium] -->

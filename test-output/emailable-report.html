@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">LT_Selenium</th></tr>
+<tr><td><a href="#t0">firefox on macOS Ventura</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">40,787</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Chrome on Windows 10</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">100,783</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num attn">3</th><th class="num">0</th><th class="num">0</th><th class="num">141,570</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LT_Selenium</th></tr></tbody><tbody id="t0"><tr><th colspan="4">firefox on macOS Ventura &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">seleniumPKG.Scenarios_LT</td><td><a href="#m0">setUp</a></td><td rowspan="1">1733743864330</td><td rowspan="1">40723</td></tr><tr><th colspan="4">firefox on macOS Ventura &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">seleniumPKG.Scenarios_LT</td><td><a href="#m1">setUp</a></td><td rowspan="2">1733743905072</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m2">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m3">tearDown</a></td><td rowspan="3">1733743905076</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m4">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m5">tearDown</a></td></tr><tr><th colspan="4">firefox on macOS Ventura &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">seleniumPKG.Scenarios_LT</td><td><a href="#m6">testDragAndDropSlider</a></td><td rowspan="1">1733743905067</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">testInputFormSubmit</a></td><td rowspan="1">1733743905073</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">testSimpleFormDemo</a></td><td rowspan="1">1733743905061</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Chrome on Windows 10 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">seleniumPKG.Scenarios_LT</td><td><a href="#m9">testDragAndDropSlider</a></td><td rowspan="1">1733743926324</td><td rowspan="1">2345</td></tr><tr class="passedeven"><td><a href="#m10">testInputFormSubmit</a></td><td rowspan="1">1733743957918</td><td rowspan="1">6948</td></tr><tr class="passedeven"><td><a href="#m11">testSimpleFormDemo</a></td><td rowspan="1">1733743893838</td><td rowspan="1">2436</td></tr></tbody>
+</table>
+<h2>firefox on macOS Ventura</h2><h3 id="m0">seleniumPKG.Scenarios_LT#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>firefox</td><td>latest</td><td>macOS Ventura</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;LAPTOP-DUJFBR3O&apos;, ip: &apos;172.23.208.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">seleniumPKG.Scenarios_LT#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">seleniumPKG.Scenarios_LT#setUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">seleniumPKG.Scenarios_LT#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">seleniumPKG.Scenarios_LT#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">seleniumPKG.Scenarios_LT#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">seleniumPKG.Scenarios_LT#testDragAndDropSlider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;LAPTOP-DUJFBR3O&apos;, ip: &apos;172.23.208.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">seleniumPKG.Scenarios_LT#testInputFormSubmit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;LAPTOP-DUJFBR3O&apos;, ip: &apos;172.23.208.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">seleniumPKG.Scenarios_LT#testSimpleFormDemo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;LAPTOP-DUJFBR3O&apos;, ip: &apos;172.23.208.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome on Windows 10</h2><h3 id="m9">seleniumPKG.Scenarios_LT#testDragAndDropSlider</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">seleniumPKG.Scenarios_LT#testInputFormSubmit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">seleniumPKG.Scenarios_LT#testSimpleFormDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

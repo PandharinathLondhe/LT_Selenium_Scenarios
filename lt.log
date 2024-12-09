@@ -1,0 +1,23 @@
+{"level":"info","time":"2024-12-09T17:01:12.580+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.8"}
+{"level":"warn","time":"2024-12-09T17:01:12.581+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: a9dbc6c5-0aa5-45a8-a58c-33f6b28aed19"}
+{"level":"warn","time":"2024-12-09T17:01:13.918+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2024-12-09T17:01:13.919+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :54472"}
+{"level":"info","time":"2024-12-09T17:01:15.967+0530","caller":"core/lifecycle.go:282","msg":"Launching tunnel"}
+{"level":"info","time":"2024-12-09T17:01:20.943+0530","caller":"core/lifecycle.go:404","msg":"You can start testing now"}
+{"level":"info","time":"2024-12-09T17:01:20.943+0530","caller":"core/lifecycle.go:405","msg":"Tunnel ID: 3352358"}
+an start testing now"}
+{"level":"info","time":"2024-12-09T17:01:19.755+0530","caller":"core/lifecycle.go:405","msg":"Tunnel ID: 3352357"}
+{"level":"info","time":"2024-12-09T17:01:41.918+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.8"}
+{"level":"warn","time":"2024-12-09T17:01:41.918+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: 8814814e-92c1-43b2-bfe5-f694fbdb3385"}
+{"level":"warn","time":"2024-12-09T17:01:43.103+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2024-12-09T17:01:43.104+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :54511"}
+{"level":"info","time":"2024-12-09T17:01:46.490+0530","caller":"core/lifecycle.go:282","msg":"Launching tunnel"}
+{"level":"info","time":"2024-12-09T17:01:50.348+0530","caller":"core/lifecycle.go:404","msg":"You can start testing now"}
+{"level":"info","time":"2024-12-09T17:01:50.348+0530","caller":"core/lifecycle.go:405","msg":"Tunnel ID: 3352365"}
+{"level":"info","time":"2024-12-09T17:02:14.282+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.8"}
+{"level":"warn","time":"2024-12-09T17:02:14.283+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: 402ecbbd-74ed-43fd-afca-827273a84897"}
+{"level":"warn","time":"2024-12-09T17:02:15.389+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2024-12-09T17:02:15.389+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :54548"}
+{"level":"info","time":"2024-12-09T17:02:17.640+0530","caller":"core/lifecycle.go:282","msg":"Launching tunnel"}
+{"level":"info","time":"2024-12-09T17:02:21.302+0530","caller":"core/lifecycle.go:404","msg":"You can start testing now"}
+{"level":"info","time":"2024-12-09T17:02:21.302+0530","caller":"core/lifecycle.go:405","msg":"Tunnel ID: 3352370"}

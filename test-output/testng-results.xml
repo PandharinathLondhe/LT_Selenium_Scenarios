@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="3" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T17:01:04 IST" name="LT_Selenium" finished-at="2024-12-09T17:02:45 IST" duration-ms="100783">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T17:01:04 IST" name="firefox on macOS Ventura" finished-at="2024-12-09T17:01:45 IST" duration-ms="40787">
+      <class name="seleniumPKG.Scenarios_LT">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:04 IST" name="setUp" finished-at="2024-12-09T17:01:45 IST" duration-ms="40723" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleFormDemo()[pri:1, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="testSimpleFormDemo" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleFormDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="tearDown" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="setUp" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDragAndDropSlider()[pri:2, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="testDragAndDropSlider" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="tearDown" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="setUp" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFormSubmit()[pri:3, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="testInputFormSubmit" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Unable to find the session info for particular sessionId null, maybe session has quit already or timed out. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'LAPTOP-DUJFBR3O', ip: '172.23.208.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{capabilities={moz:profile=/var/folders/wt/75ds5k957x11s39sf86pd2_80000gp/T/rust_mozprofilerQprJz, moz:geckodriverVersion=0.35.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0, moz:headless=false, moz:windowless=false, proxy={}, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=132.0, moz:shutdownTimeout=60000, moz:processID=99594, browserName=firefox, moz:buildID=20241021175835, moz:platformVersion=22.6.0, platformName=mac, setWindowRect=true, moz:webdriverClick=true}, sessionId=b003a260-cce2-429b-8aae-254e989e863c, platform=ANY}]
+Session ID: null
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+at seleniumPKG.Scenarios_LT.setUp(Scenarios_LT.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFormSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.Scenarios_LT@459e9125]" started-at="2024-12-09T17:01:45 IST" name="tearDown" finished-at="2024-12-09T17:01:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumPKG.Scenarios_LT -->
+    </test> <!-- firefox on macOS Ventura -->
+    <test started-at="2024-12-09T17:01:04 IST" name="Chrome on Windows 10" finished-at="2024-12-09T17:02:45 IST" duration-ms="100783">
+      <class name="seleniumPKG.Scenarios_LT">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:01:04 IST" name="setUp" finished-at="2024-12-09T17:01:33 IST" duration-ms="29506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSimpleFormDemo()[pri:1, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:01:33 IST" name="testSimpleFormDemo" finished-at="2024-12-09T17:01:36 IST" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleFormDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:01:36 IST" name="tearDown" finished-at="2024-12-09T17:01:36 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:01:36 IST" name="setUp" finished-at="2024-12-09T17:02:06 IST" duration-ms="29898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDragAndDropSlider()[pri:2, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:02:06 IST" name="testDragAndDropSlider" finished-at="2024-12-09T17:02:08 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDropSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:02:08 IST" name="tearDown" finished-at="2024-12-09T17:02:08 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:02:08 IST" name="setUp" finished-at="2024-12-09T17:02:37 IST" duration-ms="29053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFormSubmit()[pri:3, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:02:37 IST" name="testInputFormSubmit" finished-at="2024-12-09T17:02:44 IST" duration-ms="6948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFormSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPKG.Scenarios_LT@5af3afd9]" started-at="2024-12-09T17:02:44 IST" name="tearDown" finished-at="2024-12-09T17:02:45 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumPKG.Scenarios_LT -->
+    </test> <!-- Chrome on Windows 10 -->
+  </suite> <!-- LT_Selenium -->
+</testng-results>
