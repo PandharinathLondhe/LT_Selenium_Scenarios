@@ -1,0 +1,15 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: ./mvnw clean install
+    command: ./mvnw test -Dsurefire.suiteXmlFiles=testng.xml
+
+ports:
+  - port: 8080
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
+    - testng.testng-vscode
